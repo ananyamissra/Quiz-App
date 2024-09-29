@@ -78,34 +78,36 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Who is the father of Geometry?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Euclid', correct: true },
+      { text: 'Aristotle', correct: false },
+      { text: 'Pythagoras', correct: false },
+      { text: 'Kepler', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is the pH value of the human body?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: '9.2 to 9.8', correct: false },
+      { text: '7.0 to 7.8', correct: true },
+      { text: '6.1 to 6.3', correct: false },
+      { text: '5.4 to 5.6', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: ' Which of the following Himalayan regions is called Shivaliks?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: 'Upper Himalayas', correct: false },
+      { text: 'Lower Himalayas', correct: false },
+      { text: 'Outer Himalayas', correct: true },
+      { text: 'Inner Himalayas', correct: false }
     ]
   },
   {
     question: 'What is 4 * 2?',
     answers: [
-      { text: '6', correct: false },
+      { text: '12', correct: false },
       { text: '8', correct: true }
     ]
   }
